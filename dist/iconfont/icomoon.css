@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ur9hry');
+  src:  url('fonts/icomoon.eot?ur9hry#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ur9hry') format('truetype'),
+    url('fonts/icomoon.woff?ur9hry') format('woff'),
+    url('fonts/icomoon.svg?ur9hry#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e900";
+}
+.icon-shopping-bag:before {
+  content: "\e908";
+}
+.icon-hand-washing:before {
+  content: "\e901";
+  color: #8a5137;
+}
+.icon-insta-1:before {
+  content: "\e902";
+  color: #909090;
+}
+.icon-sand-watch:before {
+  content: "\e903";
+  color: #8a5137;
+}
+.icon-skin-apllying:before {
+  content: "\e904";
+  color: #8a5137;
+}
+.icon-star:before {
+  content: "\e905";
+}
+.icon-left-arrow:before {
+  content: "\e906";
+}
+.icon-right-arrow:before {
+  content: "\e907";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 200;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+h3{
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+h4{
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 10px 0;
+    background-color: #000000;
+
+    p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #ffffff;
+    }
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 100%;
+    //max-width: $containerMaxWidth;
+    margin: 0 auto;
+    padding: 0 $sidePadding;
+}
+
+.prev,
+.next {
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    i {
+        color: #8A5137;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        color: #000000;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+
+    h3 {
+        font-weight: 400;
+    }
+
+    .container {
+        padding: 0 $sidePaddingTablet;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 28px;
+        letter-spacing: 0;
+        line-height: 40px;
+    }
+
+    .container {
+        padding: 0 $sidePaddingMobile;
+    }
+}
